@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Thimble</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sat, 31 Oct 2026 08:14:42 -0400</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[The first release of Thimble, a private to-do app for Mac.
+
+- Inbox, Today, Upcoming, Anytime, Someday, and Logbook, with projects, areas, headings, tags, checklists, deadlines, repeats, and reminders.
+- Quick Capture from any app, a menu bar item, the Share menu, and Shortcuts actions.
+- A lock with Touch ID, daily backups to a folder you choose, and several windows.
+- English and French.
+
+Your tasks stay on this Mac. The app itself has no network permission; only the update check goes online.
+]]></description>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.1.0/Thimble-0.1.0.zip" length="7240012" type="application/octet-stream" sparkle:edSignature="szJqAZsX2lge31/BkgQXD+X7N0KJ+QasqOF92klRH4Dkm74PkkEqWfgGTVt1GFJjgN8itFCDu3FTYf9mx8J5AA=="/>
+        </item>
+    </channel>
+</rss>
