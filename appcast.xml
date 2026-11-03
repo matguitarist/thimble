@@ -3,21 +3,23 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.1.0</title>
-            <pubDate>Sat, 31 Oct 2026 08:14:42 -0400</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <title>0.2.0</title>
+            <pubDate>Tue, 03 Nov 2026 07:40:41 -0500</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[The first release of Thimble, a private to-do app for Mac.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.2.0 adds encrypted sync, a command line, and a Dashboard for your projects.
 
-- Inbox, Today, Upcoming, Anytime, Someday, and Logbook, with projects, areas, headings, tags, checklists, deadlines, repeats, and reminders.
-- Quick Capture from any app, a menu bar item, the Share menu, and Shortcuts actions.
-- A lock with Touch ID, daily backups to a folder you choose, and several windows.
-- English and French.
+- Sync through a folder you choose, such as one in iCloud Drive or Dropbox. Everything in it is encrypted with your passphrase, so whoever holds the folder can't read your tasks. A safety copy is kept each day sync is on.
+- Project cards: say where each project stands on each platform, with its version and last release. A heading named for a version, such as 0.2.0, shows how much of it is done.
+- The Dashboard compares every project with a card: open tasks, what needs you, what's blocked, what has stalled for 30 days, and what closed this week.
+- Copy Release Notes, in a version heading's menu, copies its finished tasks as Markdown.
+- A task now remembers when it last changed, and can wait on other tasks. A waiting task shows an hourglass.
+- The `thimble` command lets Claude Code and other tools read and change your lists through the running app. It's off until you turn it on in Settings > Privacy, it answers only you on this Mac, and each command is one Undo.
 
-Your tasks stay on this Mac. The app itself has no network permission; only the update check goes online.
+Your tasks stay on your devices. The app's only connection is the update check; sync goes through the folder you pick.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.1.0/Thimble-0.1.0.zip" length="7240012" type="application/octet-stream" sparkle:edSignature="szJqAZsX2lge31/BkgQXD+X7N0KJ+QasqOF92klRH4Dkm74PkkEqWfgGTVt1GFJjgN8itFCDu3FTYf9mx8J5AA=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.2.0/Thimble-0.2.0.zip" length="7854277" type="application/octet-stream" sparkle:edSignature="3wfU0SVnbZwBMEvBUdtcyza6nDd9vfhzVwzJTwApBa+X8lZVwrk0KX0e33LtY5dKZ+Zkt6jgiGz9P0ImC0pOAw=="/>
         </item>
     </channel>
 </rss>
