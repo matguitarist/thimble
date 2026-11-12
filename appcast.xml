@@ -3,27 +3,17 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.2.1</title>
-            <pubDate>Wed, 04 Nov 2026 19:58:50 -0500</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <title>0.2.2</title>
+            <pubDate>Wed, 11 Nov 2026 22:53:45 -0500</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.2.1 brings the first Android release, and makes sync safer on the Mac.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.2.2 lists your projects in alphabetical order.
 
-**Android, for the first time**
-- Every list, with projects, areas, headings, checklists, tags, deadlines, repeats, and reminders, in English and French.
-- Encrypted sync with your Mac through the same folder and passphrase.
-- A Today widget, a New Thimble Task tile in Quick Settings, and Share into Thimble from any app.
-- Project cards and the Dashboard. Tags show as pills, and a project's tags filter its tasks.
-- Calendar events in Today and Upcoming, daily backups to a folder you choose, and a lock with your phone's screen lock.
-- It asks for no internet access. Download the `.apk` below; it needs Android 12 or later.
-
-**Mac**
-- Fixed: after an update, sync could take empty project cards for real edits and send them to your other devices. Thimble now knows a field that's new to it isn't something you changed.
-
-The new [help page](https://github.com/matguitarist/thimble/blob/main/HELP.md) covers installing, syncing, and the rest.
+- Projects now read A to Z everywhere: the sidebar, All Projects, the Dashboard, the Move To list, and Android's drawer and Dashboard. Names sort the way Finder sorts them, so "Plan 2" comes before "Plan 10".
+- Dragging a project onto another one still moves it into that project's area.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.2.1/Thimble-0.2.1.zip" length="7859149" type="application/octet-stream" sparkle:edSignature="Mmf1e6jCsNUAZ0D2YJPTpPGu5mltN7P9l+w1TgHeLSukZmhxnpusNYtFP5l9LnWPjIaAJ1/QrnRXs/9ISky9AQ=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.2.2/Thimble-0.2.2.zip" length="7860106" type="application/octet-stream" sparkle:edSignature="yF0rO0+QSBKSmeC2UNQj5n2UtZZaxd0IRmwihDOB4fXKYTFJGyDmX+iqRm3Re+cuDhF87dm+FFng9vFWynPhDw=="/>
         </item>
     </channel>
 </rss>
