@@ -3,17 +3,18 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.2.2</title>
-            <pubDate>Wed, 11 Nov 2026 22:53:45 -0500</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <title>0.2.3</title>
+            <pubDate>Thu, 12 Nov 2026 17:58:45 -0500</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.2.2 lists your projects in alphabetical order.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.2.3 gives Android its own thimble icon and fixes the date picker's colors.
 
-- Projects now read A to Z everywhere: the sidebar, All Projects, the Dashboard, the Move To list, and Android's drawer and Dashboard. Names sort the way Finder sorts them, so "Plan 2" comes before "Plan 10".
-- Dragging a project onto another one still moves it into that project's area.
+- Android's icon is now the same dimpled thimble as the Mac's, on the same indigo.
+- On Android, the When sheet and its calendar use Thimble's colors again, in every color theme, instead of a pale purple.
+- The thimble's dimples are evenly spaced on the Mac icon too.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.2.2/Thimble-0.2.2.zip" length="7860106" type="application/octet-stream" sparkle:edSignature="yF0rO0+QSBKSmeC2UNQj5n2UtZZaxd0IRmwihDOB4fXKYTFJGyDmX+iqRm3Re+cuDhF87dm+FFng9vFWynPhDw=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.2.3/Thimble-0.2.3.zip" length="7859484" type="application/octet-stream" sparkle:edSignature="8hJz5Q29dcGOC2rvk/hRZpkbGkewHWloalx6ZddcQyuNnxptF8kzlmr/tjsck0jI1aD/50D8EK697J733rM6AA=="/>
         </item>
     </channel>
 </rss>
