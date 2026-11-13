@@ -3,18 +3,16 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.3.1</title>
-            <pubDate>Fri, 13 Nov 2026 10:01:42 -0500</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <title>0.3.2</title>
+            <pubDate>Fri, 13 Nov 2026 11:17:36 -0500</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.3.1 makes the Dashboard easier to read.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.3.2 colors Claude's limits by how much is left.
 
-- On the Mac, every other project is shaded and a line sits under the column names, so a project's numbers are easy to follow across.
-- Claude's 5-hour and weekly limits now stretch with the window, in full screen too.
-- On Android, each project shows its numbers in a small grid, each under its own name, with a line between projects. The week's Claude cost sits next to the project's name.
+- On the Dashboard, each limit's bar is green under 70%, amber from 70%, and red from 90%, on the Mac and on Android.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.3.1/Thimble-0.3.1.zip" length="8192313" type="application/octet-stream" sparkle:edSignature="s2ixAhqhDoV59ILP+NfpJg9NEHvPcK+/vIqWo0XAFGDzrsasIHHFaFhw6kqs3Ug4FJn3DZ82IJ0bQiE2tPHGCw=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.3.2/Thimble-0.3.2.zip" length="8197285" type="application/octet-stream" sparkle:edSignature="OdcVmFErP4a+cAGiPXxTqDTCQhqt+uJiBLKWPgC0VBhWVc1eQmySeT6tVSNK9OBpmF/DVzH/TCBjp8NfGvGeCA=="/>
         </item>
     </channel>
 </rss>
