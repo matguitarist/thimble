@@ -74,6 +74,7 @@ Thimble can follow how your own projects are going, such as apps you build.
 - Give a project a card from its menu: **Project Card…** on the Mac, **Project card** on Android. Write each platform and where it stands, like `Mac: released 1.2; Android: built`, with the day of the last release.
 - Name a heading after a version, like `1.3`, and the project shows how much of it is done. Its menu offers **Copy Release Notes**, a list of its finished tasks ready to paste.
 - Once a project has a card, the **Dashboard** appears. It compares every project with a card: open tasks, what needs you, what's blocked, what hasn't changed in 30 days, and what closed this week.
+- **Claude usage:** if you build with Claude Code, turn on **Settings ▸ Privacy ▸ Claude Usage** on the Mac and choose the `.claude` folder in your home folder. The Dashboard then shows your 5-hour and weekly limits, and what each project cost this week at API prices. For the limits, set Claude Code's status line to `/Applications/Thimble.app/Contents/MacOS/Thimble usage-hook`. Your phone shows the same numbers through sync. Thimble reads only token counts, never what you wrote, and nothing goes online.
 
 ## Sync your devices
 

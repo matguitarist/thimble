@@ -3,18 +3,19 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.2.3</title>
-            <pubDate>Thu, 12 Nov 2026 17:58:45 -0500</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <title>0.3.0</title>
+            <pubDate>Thu, 12 Nov 2026 19:56:33 -0500</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.2.3 gives Android its own thimble icon and fixes the date picker's colors.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.3.0 shows what Claude Code costs each of your projects, and how close you are to your limits.
 
-- Android's icon is now the same dimpled thimble as the Mac's, on the same indigo.
-- On Android, the When sheet and its calendar use Thimble's colors again, in every color theme, instead of a pale purple.
-- The thimble's dimples are evenly spaced on the Mac icon too.
+- The Dashboard starts with your 5-hour and weekly Claude limits and when they reset, and the week's cost at API prices. Each project gets a Claude column with its own cost.
+- The menu bar shows both limits and your busiest projects this week.
+- iPhone, iPad, and Android show the same numbers, through sync, from your Mac.
+- It's off until you turn it on in Settings ▸ Privacy ▸ Claude Usage. Thimble reads only the token counts in Claude Code's logs on your Mac, never what you wrote, and still never goes online. For the live limits, set Claude Code's status line to `/Applications/Thimble.app/Contents/MacOS/Thimble usage-hook`.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.2.3/Thimble-0.2.3.zip" length="7859484" type="application/octet-stream" sparkle:edSignature="8hJz5Q29dcGOC2rvk/hRZpkbGkewHWloalx6ZddcQyuNnxptF8kzlmr/tjsck0jI1aD/50D8EK697J733rM6AA=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.3.0/Thimble-0.3.0.zip" length="8185980" type="application/octet-stream" sparkle:edSignature="7x58B6OdD51ysoSvFbWhWNHY1tyTUC48MAhMtEiz3RzStMUMW3gUcjQX4ycrkik7lBtpP/Lq3SP9qZObgm3sBg=="/>
         </item>
     </channel>
 </rss>
