@@ -3,19 +3,17 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.5.1</title>
-            <pubDate>Sat, 14 Nov 2026 06:50:58 -0500</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <title>0.6.0</title>
+            <pubDate>Sat, 14 Nov 2026 08:02:13 -0500</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.5.1 tidies the Dashboard and brings Claude's limits back to life.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.6.0 lets notes link files on your Mac, and gives the `thimble` command full control of headings.
 
-- Every card on the Dashboard is the same size, with Claude's line at the bottom so it lines up across a row.
-- A project's card and where it stands sit in their own panel at the top of the project, with more room around them.
-- Claude's 5-hour and weekly limits update again. The status line command couldn't save them when run through `~/.local/bin/thimble`, so the Dashboard showed limits from hours before.
-- A Refresh button after the week's summary reads Claude's limits and logs again right away.
+- A note can link a file on this Mac, such as a screenshot: `[The board](~/Pictures/Thimble/BenchLog/board.heic)`. Command-click opens it in its own app. The first time, Thimble asks for the file's folder, then opens everything in it.
+- `thimble headings rename`, `headings move` (`--first` or `--before`), and `headings delete` change a project's headings from the command line and the MCP server. Delete only reports what it would do until you add `--yes`.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.5.1/Thimble-0.5.1.zip" length="8663873" type="application/octet-stream" sparkle:edSignature="VT3170x3wKRxCuEcA5dI+VpiyBkycIjbrueK0OEDqT4zG03vdXVsow1jmm+Xa2AOT6x4hbrCYlNxvAA2CaKTCA=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.6.0/Thimble-0.6.0.zip" length="8680257" type="application/octet-stream" sparkle:edSignature="GQ1x50xTy1jNsEBBRuoZaUnIDJFVSJI2ZmSEe7tD7wZOb/xsRMDyJlvZXbrpKwVwnUrKCk+BgdMfyIsY4zy1AQ=="/>
         </item>
     </channel>
 </rss>
