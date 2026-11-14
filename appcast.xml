@@ -3,16 +3,19 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.3.3</title>
-            <pubDate>Fri, 13 Nov 2026 13:59:49 -0500</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+            <title>0.4.0</title>
+            <pubDate>Fri, 13 Nov 2026 21:21:09 -0500</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.3.3 lets command-line tools reach Thimble on every Mac.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.4.0 syncs through a storage bucket of your own, with no folder app on each device.
 
-- With "Let command-line tools use Thimble" on, the thimble command and Claude Code now work when your home folder is on another drive. Before, Thimble never answered them there.
+- Settings > Sync > Use a Bucket… syncs through any S3-compatible bucket, such as Cloudflare R2, Backblaze B2, or MinIO. Paste a Sync Key, or fill in the bucket's address, name, and access key to make one.
+- Show Sync Key… gives the key as a QR code and as text, to set up your other devices.
+- Everything is still encrypted with your passphrase before it leaves the Mac. The bucket sees how many files there are and when they change, never what's in them.
+- Only sync goes online, and only to the bucket you give it. With a folder, or with sync off, Thimble stays offline as before.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.3.3/Thimble-0.3.3.zip" length="8197170" type="application/octet-stream" sparkle:edSignature="4KGY4Pa99JkvkLHZP1+Buc/OJF/RFvl6VUAstCtQWajaB/RSpANzOAoOcklQiLAW5j6bxlOjMFSEL79VJMCqCA=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.4.0/Thimble-0.4.0.zip" length="8353587" type="application/octet-stream" sparkle:edSignature="KbkYvj0JKVWWpP7TV7VxtZu/X4alMEaL/VR9dZS4fk0sT+DP0aA2uFBAX+epOCCJUDzeMJVem4xgqHfeKxBoDQ=="/>
         </item>
     </channel>
 </rss>
