@@ -3,19 +3,21 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.4.0</title>
-            <pubDate>Fri, 13 Nov 2026 21:21:09 -0500</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <title>0.5.0</title>
+            <pubDate>Sat, 14 Nov 2026 04:18:00 -0500</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.4.0 syncs through a storage bucket of your own, with no folder app on each device.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.5.0 shows projects as boards, splits Work from Life, and turns the Dashboard into cards.
 
-- Settings > Sync > Use a Bucket… syncs through any S3-compatible bucket, such as Cloudflare R2, Backblaze B2, or MinIO. Paste a Sync Key, or fill in the bucket's address, name, and access key to make one.
-- Show Sync Key… gives the key as a QR code and as text, to set up your other devices.
-- Everything is still encrypted with your passphrase before it leaves the Mac. The bucket sees how many files there are and when they change, never what's in them.
-- Only sync goes online, and only to the bucket you give it. With a folder, or with sync off, Thimble stays offline as before.
+- A project can show as a list or a board, with a column per heading. Drag tasks between columns. View > as List (⌥⌘1) or as Board (⌥⌘2), chosen per project and synced.
+- An area can be Work or Life. Work areas get their own group in the sidebar, and Today, Upcoming, and Anytime gain an All, Work, Life bar.
+- The Dashboard is now a grid of cards. Each count (needs you, buildable, blocked, stalled) opens its project showing only those tasks, and each project has a status strip on top with the same counts.
+- Settings > Look > Open on picks where Thimble opens: the last page or the Dashboard.
+- Settings > Sync > Move to a Bucket moves a folder's sync to a bucket, keeping a safety copy first.
+- A bucket is checked every 30 seconds while Thimble is open, so changes from other devices arrive sooner.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.4.0/Thimble-0.4.0.zip" length="8353587" type="application/octet-stream" sparkle:edSignature="KbkYvj0JKVWWpP7TV7VxtZu/X4alMEaL/VR9dZS4fk0sT+DP0aA2uFBAX+epOCCJUDzeMJVem4xgqHfeKxBoDQ=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.5.0/Thimble-0.5.0.zip" length="8623400" type="application/octet-stream" sparkle:edSignature="cnP6oUjf2wtY07CpHM6vML/0ey2ns4RUyzckKFfOyyS70q3KHRKZNUHUSRIIKNhflxckyJN0XBn/3p4u6BkYBA=="/>
         </item>
     </channel>
 </rss>
