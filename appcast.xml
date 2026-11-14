@@ -3,21 +3,19 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.5.0</title>
-            <pubDate>Sat, 14 Nov 2026 04:18:00 -0500</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <title>0.5.1</title>
+            <pubDate>Sat, 14 Nov 2026 06:50:58 -0500</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.5.0 shows projects as boards, splits Work from Life, and turns the Dashboard into cards.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.5.1 tidies the Dashboard and brings Claude's limits back to life.
 
-- A project can show as a list or a board, with a column per heading. Drag tasks between columns. View > as List (⌥⌘1) or as Board (⌥⌘2), chosen per project and synced.
-- An area can be Work or Life. Work areas get their own group in the sidebar, and Today, Upcoming, and Anytime gain an All, Work, Life bar.
-- The Dashboard is now a grid of cards. Each count (needs you, buildable, blocked, stalled) opens its project showing only those tasks, and each project has a status strip on top with the same counts.
-- Settings > Look > Open on picks where Thimble opens: the last page or the Dashboard.
-- Settings > Sync > Move to a Bucket moves a folder's sync to a bucket, keeping a safety copy first.
-- A bucket is checked every 30 seconds while Thimble is open, so changes from other devices arrive sooner.
+- Every card on the Dashboard is the same size, with Claude's line at the bottom so it lines up across a row.
+- A project's card and where it stands sit in their own panel at the top of the project, with more room around them.
+- Claude's 5-hour and weekly limits update again. The status line command couldn't save them when run through `~/.local/bin/thimble`, so the Dashboard showed limits from hours before.
+- A Refresh button after the week's summary reads Claude's limits and logs again right away.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.5.0/Thimble-0.5.0.zip" length="8623400" type="application/octet-stream" sparkle:edSignature="cnP6oUjf2wtY07CpHM6vML/0ey2ns4RUyzckKFfOyyS70q3KHRKZNUHUSRIIKNhflxckyJN0XBn/3p4u6BkYBA=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.5.1/Thimble-0.5.1.zip" length="8663873" type="application/octet-stream" sparkle:edSignature="VT3170x3wKRxCuEcA5dI+VpiyBkycIjbrueK0OEDqT4zG03vdXVsow1jmm+Xa2AOT6x4hbrCYlNxvAA2CaKTCA=="/>
         </item>
     </channel>
 </rss>
