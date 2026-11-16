@@ -3,17 +3,21 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.6.0</title>
-            <pubDate>Sat, 14 Nov 2026 08:02:13 -0500</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <title>0.7.0</title>
+            <pubDate>Mon, 16 Nov 2026 18:06:14 -0500</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.6.0 lets notes link files on your Mac, and gives the `thimble` command full control of headings.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.7.0 reads notes as a page and gives a project room for docs beside its roadmap.
 
-- A note can link a file on this Mac, such as a screenshot: `[The board](~/Pictures/Thimble/BenchLog/board.heic)`. Command-click opens it in its own app. The first time, Thimble asks for the file's folder, then opens everything in it.
-- `thimble headings rename`, `headings move` (`--first` or `--before`), and `headings delete` change a project's headings from the command line and the MCP server. Delete only reports what it would do until you add `--yes`.
+- Notes read like a page: headings, lists, checkboxes you can tick, tables, code, and quotes, with sections that fold. Click a line to edit it there.
+- A project with a card opens on its Overview: the card, the deadline, and the notes. The Roadmap with its tasks is one tab away, and Control-Tab moves between them.
+- A project can hold docs: titled pages for rules, checklists, or designs, on its Docs tab. New Doc is in the File menu (⇧⌥⌘N) and the project's menu.
+- Pin a doc to the Overview to read it there in full. Docs can be renamed, duplicated, moved to another project, and put in the Trash and back.
+- Find searches docs too, and opens one at the line that matched. An export writes each doc as a Markdown file in a folder for its project.
+- `thimble docs` lists, reads, adds, appends to, pins, moves, and trashes docs from the command line and the MCP server.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.6.0/Thimble-0.6.0.zip" length="8680257" type="application/octet-stream" sparkle:edSignature="GQ1x50xTy1jNsEBBRuoZaUnIDJFVSJI2ZmSEe7tD7wZOb/xsRMDyJlvZXbrpKwVwnUrKCk+BgdMfyIsY4zy1AQ=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.7.0/Thimble-0.7.0.zip" length="10228956" type="application/octet-stream" sparkle:edSignature="FTtdcBKw4rznonSu9sNDdSK9nWO4pahCtaxbUTIvzkOy2q5EC6aX5vbUGl0wXr88YXZYzebrLh+BVbkijU8GAQ=="/>
         </item>
     </channel>
 </rss>
