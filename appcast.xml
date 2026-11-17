@@ -3,21 +3,21 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.8.0</title>
-            <pubDate>Mon, 16 Nov 2026 19:11:15 -0500</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <title>0.9.0</title>
+            <pubDate>Tue, 17 Nov 2026 07:09:06 -0500</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.8.0 keeps pictures with a project, answers Claude's questions, and shows a repo's docs beside its roadmap.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.9.0 brings a project's docs, pictures, and questions to iPhone, iPad, and Android, and adds Show in Finder on the Mac.
 
-- Pictures: drop, paste, or share an image into a project as Inspiration, To Fix, or Reference, with a caption. Click one to see it large, use the arrow keys to go through them, and press Space for Quick Look.
-- Make Task on a To Fix picture adds a task linked to it, and the picture shows with the task. Quick Capture and the Share menu take images too, with a project picker.
-- Pictures sync to your other devices through your folder or bucket, sealed like everything else. Each image is fetched when it's shown, and a project holds up to 100 MB of them.
-- Questions: when Claude needs you to decide something, it asks in the project, with options and a recommendation. Answer there, and a task it held up stops waiting.
-- From the Repo: a project whose card points at a folder on this Mac shows that repo's README and docs on its Docs page, read-only. Allow the folder once in Settings > Privacy.
-- `thimble pictures` and `thimble questions` work from the command line and the MCP server. Android: notes read like a page, and moving sync to a bucket brings pictures along.
+- iPhone, iPad, and Android show a project's tabs: its Overview, Roadmap, Docs read as pages, Pictures, and Questions.
+- Answer Claude's questions on your phone, and the Mac sees the answer.
+- Write and edit docs on your phone: tap to edit, Done to read again. Pin a doc to the Overview from its menu.
+- Add pictures from the camera or your photo library. Each is kept small and syncs to your other devices.
+- Show in Finder on the Mac: right-click a project to see its repo folder, a doc from the repo to see its file, or a picture to see a copy named for its caption.
+- `thimble areas add`, `areas move`, and `projects area` arrange the sidebar from the command line and the MCP server.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.8.0/Thimble-0.8.0.zip" length="11069953" type="application/octet-stream" sparkle:edSignature="evDhwsQUSCRn1pe9AiiL9ldF/MISWorCRsmtsqBJ/qorPmyYomEBJ5Ma2qeV+UJHMLkSl6P35fDdhzKvEgZqCg=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.0/Thimble-0.9.0.zip" length="11092991" type="application/octet-stream" sparkle:edSignature="+6WqSYt6Iwx+Cp53eFNzxz079lJJNEJzoyh692a+zoTPkkwFsN3MIs18OLdX9hGLHi2hw++jh0osbOvAiM/ECw=="/>
         </item>
     </channel>
 </rss>
