@@ -3,21 +3,20 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.9.0</title>
-            <pubDate>Tue, 17 Nov 2026 07:09:06 -0500</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <title>0.9.1</title>
+            <pubDate>Tue, 17 Nov 2026 08:51:20 -0500</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.9.0 brings a project's docs, pictures, and questions to iPhone, iPad, and Android, and adds Show in Finder on the Mac.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.9.1 makes a project's Overview easier to read on every device.
 
-- iPhone, iPad, and Android show a project's tabs: its Overview, Roadmap, Docs read as pages, Pictures, and Questions.
-- Answer Claude's questions on your phone, and the Mac sees the answer.
-- Write and edit docs on your phone: tap to edit, Done to read again. Pin a doc to the Overview from its menu.
-- Add pictures from the camera or your photo library. Each is kept small and syncs to your other devices.
-- Show in Finder on the Mac: right-click a project to see its repo folder, a doc from the repo to see its file, or a picture to see a copy named for its caption.
-- `thimble areas add`, `areas move`, and `projects area` arrange the sidebar from the command line and the MCP server.
+- Notes and docs have more room between paragraphs, lists, and headings, and between the lines of a long paragraph.
+- Questions, each pinned doc, and Pictures have the same clear header on the Overview, which opens them.
+- A pinned doc's words sit in a panel of their own, so its headings never read as the project's.
+- Android: the Overview shows a project's notes formatted, as on the Mac and iPhone. Tap them to edit, and tick their checkboxes.
+- Bucket sync: a misspelled bucket name on Cloudflare R2 now says to check the name, not only the key's permissions.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.0/Thimble-0.9.0.zip" length="11092991" type="application/octet-stream" sparkle:edSignature="+6WqSYt6Iwx+Cp53eFNzxz079lJJNEJzoyh692a+zoTPkkwFsN3MIs18OLdX9hGLHi2hw++jh0osbOvAiM/ECw=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.1/Thimble-0.9.1.zip" length="11099108" type="application/octet-stream" sparkle:edSignature="tqhygmiF1XZUTjrsgwHS7qEt+avmrwyeN3mwdJXamI72zqXaesi9/TljDT8tjbJLBc3yZWUazdHh8LapIorfCg=="/>
         </item>
     </channel>
 </rss>
