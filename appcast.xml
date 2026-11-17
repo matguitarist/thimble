@@ -3,21 +3,21 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.7.0</title>
-            <pubDate>Mon, 16 Nov 2026 18:06:14 -0500</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <title>0.8.0</title>
+            <pubDate>Mon, 16 Nov 2026 19:11:15 -0500</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.7.0 reads notes as a page and gives a project room for docs beside its roadmap.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.8.0 keeps pictures with a project, answers Claude's questions, and shows a repo's docs beside its roadmap.
 
-- Notes read like a page: headings, lists, checkboxes you can tick, tables, code, and quotes, with sections that fold. Click a line to edit it there.
-- A project with a card opens on its Overview: the card, the deadline, and the notes. The Roadmap with its tasks is one tab away, and Control-Tab moves between them.
-- A project can hold docs: titled pages for rules, checklists, or designs, on its Docs tab. New Doc is in the File menu (⇧⌥⌘N) and the project's menu.
-- Pin a doc to the Overview to read it there in full. Docs can be renamed, duplicated, moved to another project, and put in the Trash and back.
-- Find searches docs too, and opens one at the line that matched. An export writes each doc as a Markdown file in a folder for its project.
-- `thimble docs` lists, reads, adds, appends to, pins, moves, and trashes docs from the command line and the MCP server.
+- Pictures: drop, paste, or share an image into a project as Inspiration, To Fix, or Reference, with a caption. Click one to see it large, use the arrow keys to go through them, and press Space for Quick Look.
+- Make Task on a To Fix picture adds a task linked to it, and the picture shows with the task. Quick Capture and the Share menu take images too, with a project picker.
+- Pictures sync to your other devices through your folder or bucket, sealed like everything else. Each image is fetched when it's shown, and a project holds up to 100 MB of them.
+- Questions: when Claude needs you to decide something, it asks in the project, with options and a recommendation. Answer there, and a task it held up stops waiting.
+- From the Repo: a project whose card points at a folder on this Mac shows that repo's README and docs on its Docs page, read-only. Allow the folder once in Settings > Privacy.
+- `thimble pictures` and `thimble questions` work from the command line and the MCP server. Android: notes read like a page, and moving sync to a bucket brings pictures along.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.7.0/Thimble-0.7.0.zip" length="10228956" type="application/octet-stream" sparkle:edSignature="FTtdcBKw4rznonSu9sNDdSK9nWO4pahCtaxbUTIvzkOy2q5EC6aX5vbUGl0wXr88YXZYzebrLh+BVbkijU8GAQ=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.8.0/Thimble-0.8.0.zip" length="11069953" type="application/octet-stream" sparkle:edSignature="evDhwsQUSCRn1pe9AiiL9ldF/MISWorCRsmtsqBJ/qorPmyYomEBJ5Ma2qeV+UJHMLkSl6P35fDdhzKvEgZqCg=="/>
         </item>
     </channel>
 </rss>
