@@ -3,17 +3,20 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.9.2</title>
-            <pubDate>Tue, 17 Nov 2026 14:15:03 -0500</pubDate>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+            <title>0.9.3</title>
+            <pubDate>Thu, 19 Nov 2026 18:49:11 -0500</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.9.2 makes it easier to let a project's Docs page read its repo.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.9.3 makes Android feel more at home, and the list colors easier to see.
 
-- Choose Folder opens on the folder that holds your repos, usually Developer, so Allow is all it takes.
-- Picking a folder inside a repo, such as its docs folder, no longer leaves the Docs page asking forever. Thimble asks again and names the folder to choose.
+- Android: turning the phone, changing the text size, or Android closing Thimble in the background no longer sends you back to the start. What you had open, and a task you were typing, stay.
+- Android: on a tablet, an open foldable, or a phone on its side, your lists sit beside what's open.
+- Android: screens slide in and out, and the Back gesture shows where it will take you before you let go.
+- Android: the drag handle and a doc's checklist are easier to tap, and TalkBack can jump between a list's sections.
+- Today, Upcoming, Anytime, and Someday have deeper colors in light mode, so their icons stand out on white, on the Mac, iPhone, iPad, and Android.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.2/Thimble-0.9.2.zip" length="11105014" type="application/octet-stream" sparkle:edSignature="H2xGXZI8LaP4a1+HysPwqVns+WH/xfj7iMzocZYi1bRva/r5svAe+pf13QyFeLu5YGry5/Tcq9fnmdWGjeD7BQ=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.3/Thimble-0.9.3.zip" length="11106136" type="application/octet-stream" sparkle:edSignature="qeAW7hPx8opD+kI5qGC0YU/bIlV8xoir+H1DcqpVlnKpeJNT9r+x3ZBt7NaFeU3qUK5JenJDOqKsAqGTFlP/BQ=="/>
         </item>
     </channel>
 </rss>
