@@ -3,20 +3,20 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.9.3</title>
-            <pubDate>Thu, 19 Nov 2026 18:49:11 -0500</pubDate>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+            <title>0.9.4</title>
+            <pubDate>Wed, 25 Nov 2026 10:38:53 -0500</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.9.3 makes Android feel more at home, and the list colors easier to see.
+            <description sparkle:format="markdown"><![CDATA[Thimble 0.9.4 makes pictures quicker to scroll and sharper in their tiles.
 
-- Android: turning the phone, changing the text size, or Android closing Thimble in the background no longer sends you back to the start. What you had open, and a task you were typing, stay.
-- Android: on a tablet, an open foldable, or a phone on its side, your lists sit beside what's open.
-- Android: screens slide in and out, and the Back gesture shows where it will take you before you let go.
-- Android: the drag handle and a doc's checklist are easier to tap, and TalkBack can jump between a list's sections.
-- Today, Upcoming, Anytime, and Someday have deeper colors in light mode, so their icons stand out on white, on the Mac, iPhone, iPad, and Android.
+- Picture grids and the Overview stay smooth while pictures load, on the Mac, iPhone, and iPad.
+- A wide picture stays sharp when it's cropped into a square tile.
+- A photo taken with the iPhone or iPad camera is kept upright, and saved faster.
+- A picture that hasn't reached this device yet says "Not here yet", and one that's still loading shows a plain tile instead.
+- Your Sync Key and passphrase stay in this device's Keychain as before, and nothing needs to be entered again.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.3/Thimble-0.9.3.zip" length="11106136" type="application/octet-stream" sparkle:edSignature="qeAW7hPx8opD+kI5qGC0YU/bIlV8xoir+H1DcqpVlnKpeJNT9r+x3ZBt7NaFeU3qUK5JenJDOqKsAqGTFlP/BQ=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.4/Thimble-0.9.4.zip" length="11404897" type="application/octet-stream" sparkle:edSignature="3HxR/6GPbryUX2xNMYPPgCsE52xVQqGfyCbUwKPtO3irlfApT5oHVa+CbN98DtYpDa2xl2+1aqO8vZT2ZC3PAw=="/>
         </item>
     </channel>
 </rss>
