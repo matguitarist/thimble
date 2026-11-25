@@ -3,20 +3,18 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.9.4</title>
-            <pubDate>Wed, 25 Nov 2026 10:38:53 -0500</pubDate>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+            <title>0.9.5</title>
+            <pubDate>Wed, 25 Nov 2026 17:01:17 -0500</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Thimble 0.9.4 makes pictures quicker to scroll and sharper in their tiles.
+            <description sparkle:format="markdown"><![CDATA[## The same Help menu as every app
 
-- Picture grids and the Overview stay smooth while pictures load, on the Mac, iPhone, and iPad.
-- A wide picture stays sharp when it's cropped into a square tile.
-- A photo taken with the iPhone or iPad camera is kept upright, and saved faster.
-- A picture that hasn't reached this device yet says "Not here yet", and one that's still loading shows a plain tile instead.
-- Your Sync Key and passphrase stay in this device's Keychain as before, and nothing needs to be entered again.
+- **What's New in Thimble** opens the latest release notes.
+- **Report a Problem…** opens a new GitHub issue with the app version, build and macOS version already filled in.
+- **Check for Updates…** is always in the Thimble menu, greyed out when updates aren't available.
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.4/Thimble-0.9.4.zip" length="11404897" type="application/octet-stream" sparkle:edSignature="3HxR/6GPbryUX2xNMYPPgCsE52xVQqGfyCbUwKPtO3irlfApT5oHVa+CbN98DtYpDa2xl2+1aqO8vZT2ZC3PAw=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.5/Thimble-0.9.5.zip" length="11450699" type="application/octet-stream" sparkle:edSignature="BgDMyKpJpXBVIMvabCi1HLW7ajkSdFd7SuZqkwxXwY3UtZTiHnVw8DDIpcU6gy75+kV0fb9roNicqpRDpTweCg=="/>
         </item>
     </channel>
 </rss>
