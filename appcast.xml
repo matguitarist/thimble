@@ -3,16 +3,17 @@
     <channel>
         <title>Thimble</title>
         <item>
-            <title>0.9.7</title>
-            <pubDate>Fri, 27 Nov 2026 19:59:07 -0500</pubDate>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
+            <title>0.9.8</title>
+            <pubDate>Sat, 28 Nov 2026 07:07:02 -0500</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.9.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## New app icon
+            <description sparkle:format="markdown"><![CDATA[## Project app icons
 
-- A sculpted thimble with a checkmark in deep midnight indigo and violet glass across Mac, iPhone, iPad, and Android.
+- Projects can now carry an app icon—shown in the sidebar, Dashboard cards, and project header across Mac, iPhone, iPad, and Android, and synced automatically through your vault.
+- Choose or remove a project's icon from Project Card, or set it from the command line (`thimble projects icon`).
 ]]></description>
-            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.7/Thimble-0.9.7.zip" length="11734664" type="application/octet-stream" sparkle:edSignature="lUK54A07bUFxr0OAvUfq92dcJtvr1rnHzUI4JLu9X1nrVWSvnoqH+JdHfGA8dGMPvv0gSd6lbREczKbSvqqbDQ=="/>
+            <enclosure url="https://github.com/matguitarist/thimble/releases/download/v0.9.8/Thimble-0.9.8.zip" length="11776237" type="application/octet-stream" sparkle:edSignature="Bax7lnrnRx4Gkys7fDdijn0Y4Jei1UG5On9OFhA7wqHYC56H55XIHbqjQCw+Ga/lom8DDqz2/mRpdhkRmmVXDg=="/>
         </item>
     </channel>
 </rss>
